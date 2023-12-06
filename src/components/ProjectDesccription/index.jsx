@@ -25,7 +25,7 @@ function ProjectDescription() {
     <section className=" fixed top-16 left-0 right-0 bottom-0 flex flex-col justify-around w-full h-auto p-16 px-44 z-9  bg-white bg-opacity-95 ">
       <Layout>
         <CloseModalButton setOpenModal={context.setOpenModal} />
-        <div className=" flex w-full  justify-between content-center">
+        <div className=" flex w-full  justify-between content-center h-4/5">
           <div className="w-1/2">
             <h2 className="mb-5 font-semibold font-fontHeader text-3xl">
               {context.currentProject.title}
@@ -42,7 +42,7 @@ function ProjectDescription() {
               </div>
             </div>
           </div>
-          <div className="w-1/3 h-full pt-10 pb-10 border-t-slate-800 border-b-slate-800 border-t-2 border-b-2 ">
+          <div className="w-1/3 h-full pt-10 pb-10 border-t-slate-800 border-b-slate-800 border-t-2 border-b-2 max-h-fit">
             <img
               src={context.currentProject.img}
               alt={context.currentProject.title}

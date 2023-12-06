@@ -7,7 +7,7 @@ function Card(data) {
 
   const cardStyle = {
     backgroundImage: `url(${data.img})`,
-    backgroundSize: "cover",
+    backgroundSize: "contain",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   };
@@ -19,15 +19,22 @@ function Card(data) {
       return (
         <span
           key={techName}
-          className="inline-block h-8 w-8 bg-center bg-no-repeat bg-cover"
-          style={{ backgroundImage: `url(${techImage})` }}
+          className="inline-block h-8 w-8 bg-center bg-no-repeat bg-contain"
+          style={{
+            backgroundImage: `url(${techImage})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center top",
+          }}
         ></span>
       );
     });
   };
 
   return (
-    <div className="relative w-2/6 h-72 group" style={cardStyle}>
+    <div
+      className="relative w-2/6 h-72 group border-2 border-slate-400 rounded-md shadow-md hover:shadow-lg transition-shadow duration-300"
+      style={cardStyle}
+    >
       <div className="absolute inset-0 bg-black opacity-50 group-hover:opacity-80 transition-opacity duration-300 "></div>
       <div className="absolute inset-0 flex flex-col justify-between items-center p-5 text-white ">
         <div className="flex flex-col w-full  ">
