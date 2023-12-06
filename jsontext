@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "title": "ToDoApp",
+    "category": "product",
+    "imageUrl": "https://i.imgur.com/CFG1vBI.png",
+    "description": "A task manager app ",
+    "longDescription": "A Task Manager application developed with TypeScript and React for my portfolio. This app facilitates the addition of tasks, allows users to mark them as important or completed, and provides a straightforward option for deletion.",
+    "svgImages": [
+      {
+        "TypeScript": "/typescriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/reactW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "TypeScript": "/typescript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "title": "WeatherApp",
+    "category": "code",
+    "imageUrl": "https://i.imgur.com/PisSh9y.png",
+    "description": "Wiget to check the weather in your city",
+    "longDescription": "Presenting a weather application designed for my developer portfolio. This app allows users to conveniently check the forecast for a specific location by entering the city name or ZIP code.",
+    "svgImages": [
+      {
+        "JavaScript": "/javascriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "JavaScript": "/javascript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2022",
+    "role": "Frontend Developer",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "title": "Shoppy",
+    "category": "product",
+    "imageUrl": "https://i.imgur.com/1F6tx8z.png",
+    "description": "E-comerce website created with TypeScript, React and Tailwind CSS",
+    "longDescription": "Introducing my meticulously crafted e-commerce website, developed with TypeScript, React, and enhanced with Tailwind CSS. This dynamic platform offers a seamless user experience, allowing customers to effortlessly filter through an extensive array of items. Users can create orders with ease, explore their order history, and gain comprehensive insights into each product through detailed product descriptions. Elevate your online shopping experience with this feature-rich and aesthetically pleasing e-commerce solution.",
+    "svgImages": [
+      {
+        "TypeScript": "/typescriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/reactW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "TypeScript": "/typescript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": ""
+  },
+  {
+    "id": 4,
+    "title": "PrivGame",
+    "category": "code",
+    "imageUrl": "https://i.imgur.com/bNvdRx0.png",
+    "description": "Game creater for learning canvas and JavaScript",
+    "longDescription": "Experience a captivating gaming adventure with my latest creation—a minimalist escape game crafted using JavaScript and the power of the HTML5 Canvas. Engage in three exhilarating levels that challenge your skills and intuition. Navigate through each level's intricacies as you aim to successfully escape. Immerse yourself in the simplicity and excitement of this game, designed to entertain and captivate players of all levels.",
+    "svgImages": [
+      {
+        "JavaScript": "/javascriptW.svg"
+      },
+      {
+        "Sass": "/sassW.svg"
+      },
+      {
+        "HTML": "/htmlW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "JavaScript": "/javascript.svg"
+      },
+      {
+        "Sass": "/sass.svg"
+      },
+      {
+        "HTML": "/html.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "title": "Pomodoro",
+    "category": "code",
+    "imageUrl": "https://i.imgur.com/6G40MC3.png",
+    "description": "An App created to help you manage your study time",
+    "longDescription": "Introducing my Pomodoro Timer application, meticulously crafted with JavaScript and designed for enhanced productivity. This intuitive app employs a user-friendly interface to help you manage your work intervals and breaks effectively. Customize your work and break durations to suit your workflow, and stay focused with visual and audible notifications. Elevate your productivity and time management with this sleek and efficient Pomodoro app.",
+    "svgImages": [
+      {
+        "JavaScript": "/javascriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/reactW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "JavaScript": "/javascript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": ""
+  },
+  {
+    "id": 6,
+    "title": "MovieApp",
+    "category": "product",
+    "imageUrl": "https://i.imgur.com/6G40MC3.png",
+    "description": "An App creater to consume the MovieDB API",
+    "longDescription": "Presenting my Movie App, a dynamic web application meticulously developed using JavaScript and styled with Tailwind CSS. This innovative app seamlessly integrates with The Movie Database (TMDb) API, providing users with an extensive collection of movie information at their fingertips. Effortlessly browse through a vast array of films, explore detailed descriptions, and stay informed with real-time data. Elevate your movie-watching experience with this visually appealing and feature-rich application.",
+    "svgImages": [
+      {
+        "JavaScript": "/javascriptW.svg"
+      },
+      {
+        "css": "/cssW.svg"
+      },
+      {
+        "html": "/htmlW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "JavaScript": "/javascript.svg"
+      },
+      {
+        "css": "/css.svg"
+      },
+      {
+        "html": "/html.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": ""
+  }
+]
