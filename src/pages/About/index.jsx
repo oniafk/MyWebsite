@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function About() {
   const cardStyle = {
     backgroundImage: `url(https://www.freecodecamp.org/news/content/images/2021/07/Screenshot-2021-07-20-at-9.10.06-PM.png)`,
@@ -107,8 +109,9 @@ function About() {
             <h3 className=" font-fontHeader text-xl font-semibold text-slate-700 mb-5">
               Hire me:{" "}
             </h3>
-            <a
-              href="/Contact"
+
+            <NavLink
+              to="/Contact"
               className="text-lg text-gray-500 rounded-full border-solid border-2 border-slate-700 py-2 px-5 transition duration-300 ease-in-out hover:text-slate-600 hover:bg-slate-300 inline-flex items-center"
               style={{ width: "fit-content" }}
             >
@@ -117,7 +120,7 @@ function About() {
                 className="block h-8 w-8 bg-center bg-no-repeat bg-cover ml-2"
                 style={{ backgroundImage: "url(/linkB.svg)" }}
               ></span>
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
