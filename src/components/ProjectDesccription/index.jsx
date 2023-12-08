@@ -42,7 +42,7 @@ function ProjectDescription() {
               </div>
             </div>
           </div>
-          <div className="w-1/3 h-full pt-10 pb-10 border-t-slate-800 border-b-slate-800 border-t-2 border-b-2 max-h-fit">
+          <div className="w-1/3 h-full pt-10 pb-10 border-t-slate-800 border-b-slate-800 border-t-2 border-b-2 max-h-fit max-w-md">
             <img
               src={context.currentProject.img}
               alt={context.currentProject.title}
@@ -69,10 +69,20 @@ function ProjectDescription() {
               </p>
             </div>
             <div className="w-1/3 h-10 py-2 ">
-              <h3 className=" font-fontHeader text-xl- font-semibold text-slate-700">
+              <h3 className="mb-2 font-fontHeader text-xl- font-semibold text-slate-700">
                 Links:{" "}
               </h3>
-              <p className="text-lg text-gray-500 mt-3">(°ロ°) text</p>
+              <a
+                href={`${context.currentProject.link}`}
+                className=" text-lg text-gray-500 rounded-full border-solid border-2 border-slate-700 py-2 px-5 transition duration-300 ease-in-out hover:text-slate-600 hover:bg-slate-300 inline-flex items-center"
+                style={{ width: "fit-content" }}
+              >
+                Link to project{" "}
+                <span
+                  className="block h-8 w-8 bg-center bg-no-repeat bg-cover ml-2"
+                  style={{ backgroundImage: "url(/linkB.svg)" }}
+                ></span>
+              </a>
             </div>
           </div>
         </div>

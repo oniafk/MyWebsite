@@ -63,7 +63,7 @@ function Contact() {
           <div className="flex gap-2">
             <a
               className="text-lg text-slate-600 rounded-full border-solid border-2 border-slate-700 py-1 px-5 flex items-center transition duration-300 ease-in-out hover:text-slate-600 hover:bg-slate-300"
-              href=""
+              href="https://www.linkedin.com/in/manuel-arias-450191222/"
             >
               LinkedIn{" "}
               <span
@@ -73,7 +73,7 @@ function Contact() {
             </a>
             <a
               className="text-lg text-slate-600 rounded-full border-solid border-2 border-slate-700 py-1 px-5 flex items-center transition duration-300 ease-in-out hover:text-slate-600 hover:bg-slate-300"
-              href=""
+              href="https://github.com/oniafk"
             >
               GitHub{" "}
               <span

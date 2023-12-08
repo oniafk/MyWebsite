@@ -30,11 +30,19 @@ function About() {
         </div>
         <div className="w-1/3 h-full pt-10 pb-10 border-t-slate-800 border-b-slate-800 border-t-2 border-b-2">
           <figure style={cardStyle}>
-            <img
-              className="w-full h-full"
-              src="https://www.freecodecamp.org/news/content/images/2021/07/Screenshot-2021-07-20-at-9.10.06-PM.png"
-              alt=""
-            />
+            <div className="w-full h-0 pb-[100%] relative">
+              <iframe
+                src="https://giphy.com/embed/scZPhLqaVOM1qG4lT9"
+                className="w-full h-full absolute"
+                frameBorder="0"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <p>
+              <a href="https://giphy.com/gifs/scaler-official-monday-computer-laptop-scZPhLqaVOM1qG4lT9">
+                via GIPHY
+              </a>
+            </p>
           </figure>
         </div>
       </div>
