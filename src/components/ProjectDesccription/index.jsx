@@ -35,15 +35,15 @@ function ProjectDescription() {
     <section className=" fixed top-16 left-0 right-0 bottom-0 flex flex-col justify-around w-full h-auto p-16 px-44 z-9  bg-white bg-opacity-95 ">
       <Layout>
         <CloseModalButton setOpenModal={context.setOpenModal} />
-        <div className=" flex w-full  justify-between content-center h-4/5">
+        <div className=" flex w-full  justify-between content-center h-auto">
           <div className="w-1/2">
-            <h2 className="mb-5 font-semibold font-fontHeader text-3xl">
+            <h2 className="mb-4 font-semibold font-fontHeader text-3xl">
               {context.currentProject.title}
             </h2>
             <p className="text-lg text-gray-500">
               {renderTextWithLineBreaks(context.currentProject.longDescription)}
             </p>
-            <div className="w-full mb-4">
+            <div className="w-full mb-2">
               <h3 className="mt-32 mb-2 font-fontHeader text-xl font-semibold text-slate-700">
                 Technology used:
               </h3>
@@ -60,7 +60,7 @@ function ProjectDescription() {
             />
           </div>
         </div>
-        <div className="mt-5 w-full">
+        <div className="mt-5 w-full h-1/4">
           <div className="flex w-full justify-between items-start">
             <div className="w-1/3 h-10 py-2 ">
               <h3 className="font-fontHeader text-xl- font-semibold text-slate-700">
