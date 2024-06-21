@@ -1,4 +1,4 @@
-import { React, useContext } from "react";
+import React, { useContext } from "react";
 
 import { FilterContext } from "../../context";
 import { CloseModalButton } from "../CloseModalButton";
