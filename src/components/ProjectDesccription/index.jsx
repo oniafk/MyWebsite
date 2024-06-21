@@ -1,10 +1,20 @@
-import { useContext } from "react";
+import { React, useContext } from "react";
+
 import { FilterContext } from "../../context";
 import { CloseModalButton } from "../CloseModalButton";
 import { Layout } from "../Layout";
 
 function ProjectDescription() {
   const context = useContext(FilterContext);
+
+  const renderTextWithLineBreaks = (text) => {
+    return text.split("\n").map((line, index) => (
+      <React.Fragment key={index}>
+        {line}
+        <br />
+      </React.Fragment>
+    ));
+  };
 
   const renderSvg = () => {
     return context.currentProject.svgDescription.map((techObject) => {
@@ -28,7 +38,7 @@ function ProjectDescription() {
         <div className=" flex w-full  justify-between content-center h-4/5">
           <div className="w-1/2">
             <h2 className="mb-5 font-semibold font-fontHeader text-3xl">
-              {context.currentProject.title}
+              {renderTextWithLineBreaks(context.currentProject.longDescription)}
             </h2>
             <p className="text-lg text-gray-500">
               {context.currentProject.longDescription}
