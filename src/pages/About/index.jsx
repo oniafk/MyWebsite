@@ -14,11 +14,12 @@ function About() {
           <h2 className="mb-5 font-semibold font-fontHeader text-4xl">About</h2>
           <p className="text-base text-gray-500">
             Hello, I'm Manuel, an enthusiastic web developer with a special
-            focus on UX/UI design. <br /> My fascination with new technologies
-            fuels my continuous learning, and I'm excited to contribute
-            creativity and enthusiasm to innovative projects. My approach
-            revolves around collaboration and adaptability, key elements that I
-            believe are fundamental in the ever-evolving world of technology.
+            passion on technical writting (yes, I like to teach whatever I
+            learn). <br /> My fascination with new technologies fuels my
+            continuous learning, and I'm excited to contribute creativity and
+            enthusiasm to innovative projects. My approach revolves around
+            collaboration and adaptability, key elements that I believe are
+            fundamental in the ever-evolving world of technology.
             <br />
             Ready to tackle new challenges and transform ideas into impactful
             digital experiences, I am committed to learning and growing with
@@ -129,4 +130,3 @@ function About() {
 }
 
 export { About };
-
