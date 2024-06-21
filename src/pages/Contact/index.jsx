@@ -81,6 +81,16 @@ function Contact() {
                 style={{ backgroundImage: "url(/linkB.svg)" }}
               ></span>
             </a>
+            <a
+              className="text-lg text-slate-600 rounded-full border-solid border-2 border-slate-700 py-1 px-5 flex items-center transition duration-300 ease-in-out hover:text-slate-600 hover:bg-slate-300"
+              href="https://x.com/onimae_dev"
+            >
+              Twitter - X{" "}
+              <span
+                className="inline-block h-8 w-8 bg-center bg-no-repeat bg-cover ml-2"
+                style={{ backgroundImage: "url(/linkB.svg)" }}
+              ></span>
+            </a>
           </div>
         </section>
       </main>
