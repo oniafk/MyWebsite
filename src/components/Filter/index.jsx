@@ -23,21 +23,21 @@ function Filter() {
         <li>
           <button
             className={`${
-              currentCategory === "code" ? activeStyle : ""
+              currentCategory === "product" ? activeStyle : ""
             } hover:underline hover:underline-offset-4 hover:text-gray-900 hover:font-bold`}
-            onClick={() => context.handleCategoryChange("code")}
+            onClick={() => context.handleCategoryChange("product")}
           >
-            Code
+            Recent Projects
           </button>
         </li>
         <li>
           <button
             className={`${
-              currentCategory === "product" ? activeStyle : ""
+              currentCategory === "code" ? activeStyle : ""
             } hover:underline hover:underline-offset-4 hover:text-gray-900 hover:font-bold`}
-            onClick={() => context.handleCategoryChange("product")}
+            onClick={() => context.handleCategoryChange("code")}
           >
-            Product
+            Learning Projects
           </button>
         </li>
       </ul>

@@ -11,6 +11,7 @@ function Projects() {
     return context.filterItems?.map((item) => {
       return (
         <Card
+          className="mb-3"
           key={item.id}
           title={item.title}
           description={item.description}
