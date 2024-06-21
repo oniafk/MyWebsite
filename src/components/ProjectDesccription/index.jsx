@@ -38,10 +38,10 @@ function ProjectDescription() {
         <div className=" flex w-full  justify-between content-center h-4/5">
           <div className="w-1/2">
             <h2 className="mb-5 font-semibold font-fontHeader text-3xl">
-              {renderTextWithLineBreaks(context.currentProject.longDescription)}
+              {context.currentProject.title}
             </h2>
             <p className="text-lg text-gray-500">
-              {context.currentProject.longDescription}
+              {renderTextWithLineBreaks(context.currentProject.longDescription)}
             </p>
             <div className="w-full mb-4">
               <h3 className="mt-32 mb-2 font-fontHeader text-xl font-semibold text-slate-700">
