@@ -11,7 +11,6 @@ function Projects() {
     return context.filterItems?.map((item) => {
       return (
         <Card
-          className="mb-3"
           key={item.id}
           title={item.title}
           description={item.description}
@@ -33,7 +32,7 @@ function Projects() {
       <div className="flex flex-col items-center justify-center mt-5">
         <h1 className="text-4xl font-semibold font-fontHeader">Projects</h1>
       </div>
-      <div className="flex flex-wrap justify-center items-center mt-5 w-full h-full">
+      <div className="flex flex-wrap justify-center items-center mt-5 w-full h-full mb-5">
         {viewProjects()}
       </div>
     </section>
