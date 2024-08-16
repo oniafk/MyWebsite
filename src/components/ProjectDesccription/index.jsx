@@ -33,7 +33,7 @@ function ProjectDescription() {
 
   return (
     <section className=" fixed top-16 left-0 right-0 bottom-0 flex flex-col justify-around w-full h-auto p-16 px-44 z-9  bg-white bg-opacity-95 ">
-      <Layout>
+      <Layout className="h-5/6">
         <CloseModalButton setOpenModal={context.setOpenModal} />
         <div className=" flex w-full  justify-between content-center h-auto">
           <div className="w-1/2">
