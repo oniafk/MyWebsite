@@ -52,7 +52,7 @@ function ProjectDescription() {
               </div>
             </div>
           </div>
-          <div className="w-1/2  pt-10 pb-10 border-t-slate-800 border-b-slate-800 border-t-2 border-b-2 max-h-4/5 max-w-3xl">
+          <div className="w-1/2 h-5/6 pt-10 pb-10 border-t-slate-800 border-b-slate-800 border-t-2 border-b-2  max-w-3xl">
             <img
               src={context.currentProject.img}
               alt={context.currentProject.title}
