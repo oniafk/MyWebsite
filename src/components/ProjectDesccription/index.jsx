@@ -36,7 +36,7 @@ function ProjectDescription() {
       <Layout className="h-5/6">
         <CloseModalButton setOpenModal={context.setOpenModal} />
         <div className=" flex w-full  justify-between content-center h-auto">
-          <div className="w-1/2">
+          <div className="w-1/2 h-4/5">
             <h2 className="mb-4 font-semibold font-fontHeader text-3xl">
               {context.currentProject.title}
             </h2>
