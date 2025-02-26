@@ -23,9 +23,9 @@ function Filter() {
         <li>
           <button
             className={`${
-              currentCategory === "product" ? activeStyle : ""
+              currentCategory === "frontend" ? activeStyle : ""
             } hover:underline hover:underline-offset-4 hover:text-gray-900 hover:font-bold`}
-            onClick={() => context.handleCategoryChange("product")}
+            onClick={() => context.handleCategoryChange("frontend")}
           >
             Recent Projects
           </button>
@@ -33,9 +33,9 @@ function Filter() {
         <li>
           <button
             className={`${
-              currentCategory === "code" ? activeStyle : ""
+              currentCategory === "fullstack" ? activeStyle : ""
             } hover:underline hover:underline-offset-4 hover:text-gray-900 hover:font-bold`}
-            onClick={() => context.handleCategoryChange("code")}
+            onClick={() => context.handleCategoryChange("fullstack")}
           >
             Learning Projects
           </button>

@@ -24,6 +24,7 @@ export const FilterProvider = ({ children }) => {
         "https://api.jsonbin.io/v3/b/65598dff54105e766fd20b46",
         { headers }
       );
+      console.log("API Response:", JSON.stringify(response.data, null, 5));
       setData(response.data);
     } catch (error) {
       console.log(error);
@@ -66,5 +67,22 @@ export const FilterProvider = ({ children }) => {
     </FilterContext.Provider>
   );
 };
+
+// https://drive.google.com/uc?id=1qeuixqFt55EhdDLPCdXKBkTvvB4MV8yw
+
+// shoppi
+// https://drive.google.com/file/d/1qeuixqFt55EhdDLPCdXKBkTvvB4MV8yw/view?usp=sharing
+
+// travel
+//  https://drive.google.com/file/d/1KANv_wmzmmK-hTD0ZxDegGFXsIU11mUR/view?usp=sharing
+
+// priv game
+// https://drive.google.com/file/d/1wquLUdbB1ByToTqIEK5L457PZZgW5ISS/view?usp=sharing
+
+// sushi restaurant
+// https://drive.google.com/file/d/1WLwdgDgKUwY0eLjUSk7D7H2bShR5pX_D/view?usp=sharing
+
+// nike homepage
+// https://drive.google.com/file/d/19X5C3twUBnNbtYWLFRmfQu7iouCL_uT0/view?usp=sharing
 
 export { FilterContext };

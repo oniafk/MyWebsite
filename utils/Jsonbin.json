@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "title": "Web-llm Chat",
+    "category": "fullstack",
+    "imageUrl": "https://i.imgur.com/jrnHPC2.png",
+    "description": "A chatbot that will run a LLM locally on your computer",
+    "longDescription": "I am excited to present my latest project, a web application built using WebLLM, a high-performance in-browser LLM inference engine.\nThis project showcases my ability to integrate advanced AI technologies directly into the web browser, ensuring fast and efficient language model inference without the need for server-side processing.\n\nTechnologies Used:\n- JavaScript: For building the interactive logic and functionality.\n- HTML: For structuring the content and providing a clean, semantic layout.\n\nHighlights:\n- In-Browser AI Processing: Leveraged WebLLM for real-time language model inference with WebGPU acceleration, ensuring a seamless user experience directly within the browser.\n- OpenAI API Compatibility: Integrated WebLLM with full support for OpenAI's API, enabling functionalities like streaming chat completions and JSON-mode structured generation.\n- Responsive and Lightweight: The application is designed to be responsive, ensuring optimal performance across various devices while maintaining a lightweight footprint.\n\nThis project demonstrates my capability to harness modern web technologies and AI engines to deliver powerful, browser-based applications, solidifying my skills in JavaScript, HTML, and AI integration.",
+    "svgImages": [
+      {
+        "JavaScript": "/javascriptW.svg"
+      },
+      {
+        "HTML": "/htmlW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "JavaScript": "/javascript.svg"
+      },
+      {
+        "HTML": "/html.svg"
+      }
+    ],
+    "year": "2024",
+    "role": "Frontend Developer",
+    "link": "https://local-chatbot-llm.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "Del Alma",
+    "category": "frontend",
+    "imageUrl": "https://i.imgur.com/mKUDUZ9.png",
+    "description": "A website created for a caffee shop located in Melbourne, Australia",
+    "longDescription": "I proudly present my first paid project, a dynamic website for a Colombian-themed coffee shop in Melbourne. \nThis project highlights my ability to create a fully functional and visually appealing web application using modern technologies. \n\nTechnologies Used: \nNext.js: For fast, server-rendered React application. \nTailwind CSS: For responsive and efficient styling. \nPostgreSQL: For robust data storage. \nHono: For lightweight and fast backend services. \n\nHighlights: \nResponsive Design: Optimized for all devices. \nUser-Friendly Interface: Capturing Colombian culture.\n Efficient Data Management: Easy updates for dynamic content. \nPerformance Optimization: Ensuring smooth user experience. \n\nThis project demonstrates my capability to deliver professional-grade web applications, solidifying my skills in Next.js, Tailwind CSS, PostgreSQL, and Hono.",
+    "svgImages": [
+      {
+        "TypeScript": "/typescriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/reactW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "TypeScript": "/typescript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2024",
+    "role": "Frontend Developer",
+    "link": "https://del-alma.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Customer Service Chat",
+    "category": "fullstack",
+    "imageUrl": "https://i.imgur.com/erUkeca.png",
+    "description": "AI-Powered Order Support Chatbot for customers",
+    "longDescription": "I developed an advanced customer service chat for an e-commerce platform, powered by a Large Language Model (LLM) embedded with a vector store in Supabase. \n\nThis project showcases my ability to integrate cutting-edge AI technologies to enhance customer experience.\n\nTechnologies Used:\n LangChain: For seamless integration with GPT-4 from OpenAI.\n Supabase: For efficient vector storage and retrieval.\n GPT-4: To provide intelligent and context-aware customer support.\n\nHighlights:\nOrder Assistance: Helps customers with order inquiries and status updates.\n Issue Resolution: Provides solutions to problems faced with orders.\n Policy Information: Communicates company policies effectively.\n AI-Driven Support: Ensures the best possible solutions through advanced AI.\n\nThis project demonstrates my expertise in leveraging AI and vector databases to create a sophisticated and efficient customer service tool.",
+    "svgImages": [
+      {
+        "TypeScript": "/typescriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/reactW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "TypeScript": "/typescript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2024",
+    "role": "Frontend Developer",
+    "link": "https://chatbot-langchain-git-main-manuel-arias-projects.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Shoppy",
+    "category": "fullstack",
+    "imageUrl": "https://i.imgur.com/1lpk06q.png",
+    "description": "E-comerce website created with TypeScript, React and Tailwind CSS",
+    "longDescription": "Introducing my meticulously crafted e-commerce website, developed with TypeScript, React, and enhanced with Tailwind CSS. This dynamic platform offers a seamless user experience, allowing customers to effortlessly filter through an extensive array of items. Users can create orders with ease, explore their order history, and gain comprehensive insights into each product through detailed product descriptions. Elevate your online shopping experience with this feature-rich and aesthetically pleasing e-commerce solution.",
+    "svgImages": [
+      {
+        "TypeScript": "/typescriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/reactW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "TypeScript": "/typescript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": "https://shoppy-delta-nine.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "PrivGame",
+    "category": "fullstack",
+    "imageUrl": "https://i.imgur.com/SJ9mNOp.png",
+    "description": "Game creater for learning canvas and JavaScript",
+    "longDescription": "Experience a captivating gaming adventure with my latest creation—a minimalist escape game crafted using JavaScript and the power of the HTML5 Canvas. Engage in three exhilarating levels that challenge your skills and intuition. Navigate through each level's intricacies as you aim to successfully escape. Immerse yourself in the simplicity and excitement of this game, designed to entertain and captivate players of all levels.  Please, you need to know that this game is made with canva and the best resolition for it is 1920 x 1080",
+    "svgImages": [
+      {
+        "JavaScript": "/javascriptW.svg"
+      },
+      {
+        "Sass": "/sassW.svg"
+      },
+      {
+        "HTML": "/htmlW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "JavaScript": "/javascript.svg"
+      },
+      {
+        "Sass": "/sass.svg"
+      },
+      {
+        "HTML": "/html.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": "https://priv-game-manuel-arias-projects.vercel.app/"
+  },
+  {
+    "id": 6,
+    "title": "Nike homepage",
+    "category": "frontend",
+    "imageUrl": "https://i.imgur.com/Qb9QUV9.png",
+    "description": "An example of how can look Nike's homepage",
+    "longDescription": "A static replica of the Nike homepage, built with React and TypeScript. This project focuses on creating a clean, responsive, and pixel-perfect layout, demonstrating my ability to structure and style modern web interfaces.",
+    "svgImages": [
+      {
+        "TypeScript": "/typescriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/reactW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "TypeScript": "/typescript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": "https://nike-landing-livid.vercel.app/"
+  },
+  {
+    "id": 7,
+    "title": "Sushiman Homepage",
+    "category": "frontend",
+    "imageUrl": "https://i.imgur.com/tBuReVq.png",
+    "description": "An App created to help you manage your study time",
+    "longDescription": "An interactive sushi restaurant homepage featuring a menu and favorite items section. Developed with React and TypeScript, this project includes smooth animations to enhance user experience, showcasing my skills in UI design and frontend interactivity.",
+    "svgImages": [
+      {
+        "JavaScript": "/typescript.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/reactW.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "JavaScript": "/javascript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2023",
+    "role": "Frontend Developer",
+    "link": "https://sushi-website-six-cyan.vercel.app//"
+  },
+  {
+    "id": 8,
+    "title": "Putuk camping homepage",
+    "category": "frontend",
+    "imageUrl": "https://i.imgur.com/rWXhX0B.png",
+    "description": "Wiget to check the weather in your city",
+    "longDescription": "A frontend showcase of a travel app designed to explore camping areas. Built with React and TypeScript, this project highlights my expertise in responsive design, intuitive navigation, and UI structuring for an engaging browsing experience.",
+    "svgImages": [
+      {
+        "JavaScript": "/javascriptW.svg"
+      },
+      {
+        "Tailwind": "/tailwindW.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "svgImagesDescription": [
+      {
+        "JavaScript": "/javascript.svg"
+      },
+      {
+        "Tailwind": "/tailwind.svg"
+      },
+      {
+        "React": "/react.svg"
+      }
+    ],
+    "year": "2022",
+    "role": "Frontend Developer",
+    "link": "https://travel-website-eight-liart.vercel.app//"
+  }
+]
