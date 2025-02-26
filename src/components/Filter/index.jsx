@@ -27,7 +27,7 @@ function Filter() {
             } hover:underline hover:underline-offset-4 hover:text-gray-900 hover:font-bold`}
             onClick={() => context.handleCategoryChange("frontend")}
           >
-            Recent Projects
+            Front-end
           </button>
         </li>
         <li>
@@ -37,7 +37,7 @@ function Filter() {
             } hover:underline hover:underline-offset-4 hover:text-gray-900 hover:font-bold`}
             onClick={() => context.handleCategoryChange("fullstack")}
           >
-            Learning Projects
+            Full-stack
           </button>
         </li>
       </ul>
